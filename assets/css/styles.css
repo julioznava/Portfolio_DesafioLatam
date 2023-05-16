@@ -7,6 +7,7 @@ body {
     width: 200px;
 }
 
+
 .nav-link {
     color: #C8C6C6;
 }
@@ -14,4 +15,52 @@ body {
 .nav-link:hover{
     color: #FFC03B;
 }
+
+.imagen-1 {
+    width:450px;
+}
+
+
+.nowrap {
+    padding: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#uno {
+    font-size: 85px;
+    color: #C8C6C6;
+    margin: 8px;
+}
+
+#dos {
+    font-size: 85px;
+    color: #F77F00;
+    margin: 8px;
+
+}
+
+#tres {
+    font-size: 85px;
+    color: #FFC03B;
+    margin: 8px;
+}
+
+.nowrap-1 {
+    font-size: 33px;
+    color: #C8C6C6;
+    text-align: center;
+    padding: 8px;
+}
+.btn {
+    color: #C8C6C6;
+    font-style: normal;
+    padding: 8px;
+
+}
+.btn:hover {
+    color: #2C2C2C;
+    font-style: normal;
+}
+
 

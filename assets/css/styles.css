@@ -1,0 +1,17 @@
+body {
+    background-color: #2C2C2C;
+}
+
+.logo-img {
+    padding: 15px;
+    width: 200px;
+}
+
+.nav-link {
+    color: #C8C6C6;
+}
+
+.nav-link:hover{
+    color: #FFC03B;
+}
+

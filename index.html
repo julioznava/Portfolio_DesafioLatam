@@ -6,12 +6,13 @@
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
         <div class="container justify-content-center">
-            <img class="logo-img" src="./assets/img/lOGO-JN.png" alt="">
+            <img class="logo-img" src="./assets/img/lOGO-JN.png" alt="lOGO-JN.png" />
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,7 +22,7 @@
                         <a class="nav-link p-3 fs-3" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-3 fs-3" href="#">Sobre mi</a>
+                        <a class="nav-link p-3 fs-3" href="about-me">Sobre mi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-3 fs-3" href="#">Trabajos</a>
@@ -34,19 +35,19 @@
         </div>
     </nav>
     <!-- END NAVBAR -->
-    <br>
-    <br>
+    <br/>
+    <br/>
 
     <!-- header -->
     <div class=" container d-flex  justify-content-center">
-        <img class="imagen-1" src="./assets/img/P1010569.png" alt="">
+        <img class="imagen-1" src="./assets/img/P1010569.png" alt="P1010569.png" />
         <div class="container">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <p class="nowrap">
                 <span id="uno">Soy</span>
                 <span id="dos">Julio</span>
@@ -57,14 +58,101 @@
                 <span>&</span>
                 <span>Desarrollador Front-End</span>
             </p>
-            <br>
+            <br/>
             <div class="container d-flex justify-content-center">
-                <button type="button" class="btn btn-outline-warning d-flex fs-5">Ver mi CV</button>
+                <button type="button" class="btn btn-outline-warning d-flex fs-5"><a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:327f3a44-1670-4bdb-9af1-6991224d6fb0">Ver mi CV</a></button>
             </div>
         </div>
     </div>
     <!-- end header -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- Sobre mi -->
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="d-flex justify-content-center" id="about-me">
+        <div class="container">
+            <h1 class="sobremi pb-4">Sobre mi <span>.<hr id="linea"></span></h1>
+            <p class="parrafo justify-content-center">Amante de las tecnologías, autodidacta con grandes aptitudes para el trabajo en equipo y con ideas claras.
+                además de ser ordenado, estructurado y con alta motivación en cumplir metas y objetivos laborales y personales.
+
+                Poseo 10 años de experiencia en todo lo que es soporte informático, HelpDesk, Técnico en terreno y
+                manejo de sistemas operativos Linux, Microsoft, ofimática, Hardware y Software.
+
+                Me encuentro actualmente Titulado de Analista Programador y busco expandir mis conocimientos y experiencia en lo posible dentro de dicha área.</p>
+        </div>
+    </div>
+    <!-- habgilidades -->
+    <div class="container">
+        <div class="row align-items-lg-start">
+            <div class=" icon col-lg-4">
+                <img class="img-icon" src="./assets/img/code.svg" alt="" width="code.svg" />
+                <h4 class="texto-1">Programacion</h4>
+            </div>
+
+            <div class=" icon col-lg-4">
+                <img class="img-icon" src="./assets/img/computer.svg" alt="" width="computer.svg" />
+                <h4 class="texto-2">Hardware</h4>
+            </div>
+
+            <div class=" icon col-lg-4">
+                <img class="img-icon" src="./assets/img/wifi.svg" alt="" width="wifi.svg" />
+                <h4 class="texto-3">Redes</h4>
+            </div>
+        </div>
+    </div>
+
+    <head class="d-flex justify-content-center">
+        <div class="container">
+            <h1 class="sobremi pb-4">Trabajos <span>.<hr id="linea"></span></h1>
+            <div class="container">
+                <br/>
+                <p class="parrafo justify-content-center">Trabajos realizados durante mi formación universitaria y continuo aprendizaje como autodidacta. En el cual 2 los he realizado para una empresa y se ha implementado en ella.
+                    Los lenguajes utilizados son: Python con framework Django, HTML, BOOTSTRAP, JavaScript
+                </p>
+                <br/>
+                <div class="card-group">
+                    <div class="card">
+                        <img class="img-trabajo-1" src="./assets/img/recismart.png" class="card-img-top" alt="recismart.png" />
+                        <div class="card-body">
+                            <h5 class="card-title p-2">Recismart</h5>
+                            <p class="card-text">Es un sitio en el cual tu puedes ayudar a realizar reciclaje con objetos de cualquier índole que ya no utilices en tu hogar o tu empresa..</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="img-trabajo-2" src="./assets/img/invetario.png" class="card-img-top" alt="invetario.png" />
+                        <div class="card-body">
+                            <h5 class="card-title p-2">Inventario-TI</h5>
+                            <p class="card-text">inventario para área de informática y e intranet en el cual se integrara además un servicio de tickets HelpDesk (en construcción).</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="img-trabajo-3" src="./assets/img/invitacion.png" class="card-img-top" alt="invitacion.png" />
+                        <div class="card-body">
+                            <h5 class="card-title p-2">Invitacion</h5>
+                            <p class="card-text">Este proyecto consiste en enviar el link del sitio para que el usuario ingrese su nombre, y este quede registrado automáticamente para que en la invitación aparezca su nombre (puede usar nombre y apellido)</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <footer>
+            <div class="container">
+                <h3 id="textfooter">Todos los derechos reservados Julio Navarro Rojas</h3>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
 </body>
 </html>
+

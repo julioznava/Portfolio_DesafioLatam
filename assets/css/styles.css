@@ -2,6 +2,11 @@ body {
     background-color: #2C2C2C;
 }
 
+a {
+    text-decoration: none;
+    color: #C8C6C6;
+}
+
 .logo-img {
     padding: 15px;
     width: 200px;
@@ -14,6 +19,7 @@ body {
 
 .nav-link:hover{
     color: #FFC03B;
+    text-decoration: none;
 }
 
 .imagen-1 {
@@ -64,3 +70,92 @@ body {
 }
 
 
+
+.sobremi {
+    color: #F77F00;
+    font-size: 55px;
+    padding: 15px;
+}
+
+.linea {
+    background-color: #FFC03B;
+}
+
+.parrafo {
+    color: #C8C6C6;
+    font-size: 20px;
+}
+
+.img-icon {
+    width: 120px;
+    margin: 20px;
+}
+
+.icon {
+    padding: 120px;
+}
+
+.texto-1 {
+    font-size: 30px;
+    color: #F77F00;
+}
+
+.texto-2 {
+    font-size: 30px;
+    color: #F77F00;
+    padding-left: 16px;
+}
+
+.texto-3 {
+    font-size: 30px;
+    color: #F77F00;
+    padding-left: 50px;
+}
+
+.texto-trabajos {
+    color: #C8C6C6;
+    font-size: 40px;
+}
+.github {
+    width: 40px;
+}
+
+
+.card {
+    background-color: #2C2C2C;
+    border: none;
+    padding: 30px;
+}
+
+.card-title {
+    color: #FFC03B;
+    font-size: 35px;
+}
+
+.card-text {
+    color: #C8C6C6;
+    font-size: 18px;
+}
+
+.img-trabajo-1 {
+    width: 450px;
+}
+
+.img-trabajo-2 {
+    width: 413px;
+}
+
+.img-trabajo-3 {
+    width: 363px;
+}
+
+
+footer {
+    background-color: #F77F00;
+    padding: 50px;
+}
+
+#textfooter {
+    text-align: center;
+    color: #2C2C2C;
+}
